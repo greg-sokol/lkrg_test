@@ -5,6 +5,7 @@ Linux kernel module that illustrates how LKRG runtime protection works.
 Linux Kernel Runtime Guard is a runtime exploit scanner which scans for typical artifacts following a successfully utilised exploit.
 
 Please visit the module's official website https://lkrg.org/ for more details on the project.
+
 There's a conference video featuring its author - Adam Pi3 - who explains how the module works. Presentation slides can also be found there.
 
 ## The mechanisms
@@ -25,6 +26,7 @@ Currently this test simulates the following integrity violations:
 ### Building
 
 `make -C <path_to_kernel_source_tree_or_headers> M=<path_to_module_source> modules`
+
 `make -C <path_to_kernel_source_tree_or_headers> M=<path_to_module_source> modules_install`
 
 ### Running
